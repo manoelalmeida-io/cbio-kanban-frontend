@@ -1,0 +1,15 @@
+.title {
+  display: block;
+  font-family: Ubuntu, sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.sub-title {
+  display: block;
+  color: #848484;
+  font-family: Ubuntu, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 16px;
+}

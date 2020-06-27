@@ -1,0 +1,8 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.options img {
+  opacity: 0.6;
+}
