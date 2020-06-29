@@ -12,4 +12,11 @@ export class ColumnHeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  handleBtnMoreClick(): void {
+    alert('more');
+  }
+
+  handleBtnAddClick(): void {
+    alert('add');
+  }
 }

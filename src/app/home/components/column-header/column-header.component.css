@@ -1,8 +1,15 @@
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.options img {
-  opacity: 0.6;
+.options {
+  height: 24px;
+}
+
+.divider {
+  margin-top: 4px;
+  border-top: 2px solid #bbb;
+  border-bottom: 0;
 }

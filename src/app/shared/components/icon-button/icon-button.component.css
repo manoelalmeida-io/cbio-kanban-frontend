@@ -1,0 +1,10 @@
+img {
+  padding: 3px;
+  opacity: 0.5;
+  width: 24px;
+  border-radius: 3px;
+}
+
+img:hover {
+  background: #00000024;
+}

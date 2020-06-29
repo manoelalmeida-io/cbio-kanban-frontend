@@ -9,6 +9,8 @@ import { KanbanComponent } from './home/components/kanban/kanban.component';
 import { ColumnComponent } from './home/components/column/column.component';
 import { ColumnTitleComponent } from './home/components/column-title/column-title.component';
 import { ColumnHeaderComponent } from './home/components/column-header/column-header.component';
+import { IconButtonComponent } from './shared/components/icon-button/icon-button.component';
+import { TaskCardComponent } from './home/components/task-card/task-card.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { ColumnHeaderComponent } from './home/components/column-header/column-he
     ColumnComponent,
     ColumnTitleComponent,
     ColumnHeaderComponent,
+    IconButtonComponent,
+    TaskCardComponent,
   ],
   imports: [
     BrowserModule,
