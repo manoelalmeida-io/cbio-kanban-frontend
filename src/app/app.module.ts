@@ -11,6 +11,8 @@ import { ColumnTitleComponent } from './home/components/column-title/column-titl
 import { ColumnHeaderComponent } from './home/components/column-header/column-header.component';
 import { IconButtonComponent } from './shared/components/icon-button/icon-button.component';
 import { TaskCardComponent } from './home/components/task-card/task-card.component';
+import { HttpClientModule } from '@angular/common/http';
+import { AddColumnButtonComponent } from './home/components/add-column-button/add-column-button.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { TaskCardComponent } from './home/components/task-card/task-card.compone
     ColumnHeaderComponent,
     IconButtonComponent,
     TaskCardComponent,
+    AddColumnButtonComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

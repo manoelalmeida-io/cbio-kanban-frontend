@@ -7,4 +7,5 @@ img {
 
 img:hover {
   background: #00000024;
+  cursor: pointer;
 }

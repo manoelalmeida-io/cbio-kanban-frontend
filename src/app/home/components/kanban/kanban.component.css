@@ -23,6 +23,6 @@
   margin-top: 30px;
 }
 
-.column-container app-column:not(:first-child) {
+.column-container div:not(:first-child) {
   margin-left: 54px;
 }

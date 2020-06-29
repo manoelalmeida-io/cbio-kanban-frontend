@@ -1,9 +1,12 @@
 <div class="kanban-container">
-  <span class="title">Título</span>
+  <span class="title">{{service.kanban.name}}</span>
   <span class="sub-title">Last edited by: Manoel Almeida</span>
   <div class="column-container">
-    <app-column></app-column>
-    <app-column></app-column>
-    <app-column></app-column>
+    <div *ngFor="let column of service.kanban.columns">
+      <app-column [column]="column"></app-column>
+    </div>
+    <div>
+      <app-add-column-button></app-add-column-button>
+    </div>
   </div>
 </div>

@@ -1,0 +1,11 @@
+div {
+  display: flex;
+  opacity: 0.3;
+  padding: 4px 8px 4px 4px;
+  border-radius: 3px;
+}
+
+div:hover {
+  background: #00000024;
+  cursor: pointer;
+}

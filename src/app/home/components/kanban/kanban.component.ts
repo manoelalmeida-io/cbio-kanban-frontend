@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { KanbanService } from 'src/app/core/kanban.service';
 
 @Component({
   selector: 'app-kanban',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class KanbanComponent implements OnInit {
 
-  constructor() { }
+  constructor(public service: KanbanService) { }
 
   ngOnInit(): void {
+    this.service.one();
   }
 
 }

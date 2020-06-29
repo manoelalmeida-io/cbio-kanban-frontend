@@ -1,8 +1,8 @@
 <div class="column">
-  <app-column-header></app-column-header>
+  <app-column-header [title]="column.name"></app-column-header>
   <div class="tasks">
-    <app-task-card></app-task-card>
-    <app-task-card></app-task-card>
-    <app-task-card></app-task-card>
+    <div *ngFor="let task of column.tasks">
+      <app-task-card [task]="task"></app-task-card>
+    </div>
   </div>
 </div>
